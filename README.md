@@ -15,11 +15,12 @@ A Feature class is implemented with two functionality:
 Both of the above feature flags are used in combination to get nickname and capitalize it as per the feature flag state.
 
 **Pull Request **
+
 Description:
 This PR contains following changes:
-UI
+**UI**
 1. UI for nickname functionality. Textfield, enter button and a label.
-Feature Flag:
+**Feature Flag:**
 1. Initialising the names array.
 2. Mapping the input username to existing usernames in names array and return an associated nickname. 
 3. Using the capitalizeNickname flag along with the nicknames flag to decide whether the nickname shall be shown all uppercased or as it is as mapped in names array.
