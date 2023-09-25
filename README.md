@@ -7,6 +7,7 @@ The app contains a single screen with a simple text entry field, an enter button
 
 ![Simulator Screenshot - iPhone 14 - 2023-09-25 at 11 23 27](https://github.com/Akshaytule09/FeatureFlagSwift/assets/20128411/0e90fde0-de1c-4db3-8d5d-d293f96a521c)
 
+
 **Feature:**
 A Feature class is implemented with two functionality:
 1. A feature flag is implemented to return a nick name for username that has been entered by user.
@@ -18,13 +19,20 @@ Both of the above feature flags are used in combination to get nickname and capi
 
 Description:
 This PR contains following changes:
+
 **UI**
+
 1. UI for nickname functionality. Textfield, enter button and a label.
+
+   
 **Feature Flag:**
+
 1. Initialising the names array.
 2. Mapping the input username to existing usernames in names array and return an associated nickname. 
 3. Using the capitalizeNickname flag along with the nicknames flag to decide whether the nickname shall be shown all uppercased or as it is as mapped in names array.
+
 View Model:
+
 1. HomeControllerViewModel to manage the data handling for nickname functionality, to interact with Feature class and get required output and pass to the HomeViewController
 
 Classes modified/added:
